@@ -1,0 +1,48 @@
+top - 04:14:19 up 23:52,  1 user,  load average: 0.02, 0.02, 0.00
+Tasks: 108 total,   1 running, 107 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  3.0 sy,  0.0 ni, 93.9 id,  0.0 wa,  0.0 hi,  0.0 si,  3.0 st
+MiB Mem :   3908.8 total,   2642.2 free,    222.1 used,   1044.5 buff/cache
+MiB Swap:   3914.0 total,   3914.0 free,      0.0 used.   3454.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                 
+   4054 learnp    20   0    9260   3756   3212 R   6.2   0.1   0:00.01 top                                                     
+      1 root      20   0  103952  12852   8416 S   0.0   0.3   0:08.66 systemd                                                 
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.02 kthreadd                                                
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                                                  
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                                              
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-kblockd                                    
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                            
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.18 ksoftirqd/0                                             
+     11 root      20   0       0      0      0 I   0.0   0.0   0:01.98 rcu_sched                                               
+     12 root      rt   0       0      0      0 S   0.0   0.0   0:01.36 migration/0                                             
+     13 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                           
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                                 
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                                 
+     16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                           
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:01.51 migration/1                                             
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.19 ksoftirqd/1                                             
+     20 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd                                    
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                                               
+     22 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                                   
+     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre                                         
+     24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                                                 
+     26 root      20   0       0      0      0 S   0.0   0.0   0:00.04 khungtaskd                                              
+     27 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper                                              
+     28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback                                               
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kcompactd0                                              
+     30 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd                                                    
+     31 root      39  19       0      0      0 S   0.0   0.0   0:00.46 khugepaged                                              
+     78 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd                                             
+     79 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd                                                 
+     80 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio                                          
+     81 root      20   0       0      0      0 S   0.0   0.0   0:00.00 xen-balloon                                             
+     82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 tpm_dev_wq                                              
+     83 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff                                                 
+     84 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 md                                                      
+     85 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller                                             
+     86 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq                                              
+     87 root      rt   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd                                               
+     91 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0                                                 
+     92 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthrea                                         
+     94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld                                                
+     95 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 acpi_thermal_pm                                         
